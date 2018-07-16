@@ -1,0 +1,108 @@
+body 
+{
+	background-color: #B3DD1E;
+}
+
+/*display div styles*/
+#scrollable
+{
+	width: 50%;
+	height: 225px;
+	background-color: #F89105;
+	padding: 25px 5px 5px 5px;
+	margin: 10px;
+	display: block;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left: 23%;
+		
+	overflow-y: scroll;
+	overflow-x: hidden;
+	word-wrap: break-word;
+}
+
+/*form styles*/
+div#form{
+	padding-top: 25px;
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 28%;	
+}
+
+fieldset 
+{
+	background-color: #F89105;
+	width: 400px
+}
+		
+#commentbox 
+{	
+	display: block;
+	text-align: left;
+	margin: 10px;
+	padding: 5px;
+	color: white;
+}
+
+#favchar, #name
+{
+	display: inline-block;
+	color: white;
+	
+}
+
+/*display comment styles*/
+ul
+{
+	list-style: none;
+	text-align: left;
+}
+
+/*div displaying cookeis*/
+#favcharacter
+{
+	color: white;
+	float: right;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: #512E52;
+	text-align: center;
+	position: absolute;
+	bottom: 30%;
+	right: 3%;
+}
+
+p
+{
+	position: relative;
+	top: 45%;
+	margin: auto;
+}
+
+/*navigation links*/
+#bottomMenu
+{
+	background-color: #3FCFBA;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	
+	text-align: center;
+}
+
+.pagelinks
+{
+	position: relative;
+	bottom: 1px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 150px;
+	height: 50px;
+}

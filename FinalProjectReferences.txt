@@ -1,0 +1,13 @@
+REFERENCES
+
+Scooby-Doo info
+Colors: http://www.colourlovers.com/palette/3127302/Scooby-Doo
+Character bios and pics:scoobydoo.wikia.com
+Episode names and pics: http://www.denofgeek.com/us/tv/scooby-doo/219931/the-10-scariest-scooby-doo-episodes
+
+
+Coding resources
+https://www.w3schools.com/jquery/jquery_hide_show.asp
+https://www.w3schools.com/php/php_cookies.asp
+http://php.net/manual/en/features.cookies.php
+https://stackoverflow.com/questions/13851528/how-to-pop-an-alert-message-box-using-php

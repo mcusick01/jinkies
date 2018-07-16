@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scooby-Doo! Where Are You?! | Top 10 Villains</title>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	
+	<script>
+	//when each picture is hovered over, the name of the episode the villain appears in will appear at the top
+	//that div will be hidden again when the picture is not being hovered over
+		$(document).ready(function() {
+			$("#ape").hover(function() {
+				$("#apepop").toggle();
+			});
+			$("#cat").hover(function() {
+				$("#catpop").toggle();
+			});
+			$("#electric").hover(function() {
+				$("#electricpop").toggle();
+			});
+			$("#doc").hover(function() {
+				$("#docpop").toggle();
+			});
+			$("#drac").hover(function() {
+				$("#dracpop").toggle();
+			});
+			$("#clown").hover(function() {
+				$("#clownpop").toggle();
+			});
+			$("#opera").hover(function() {
+				$("#operapop").toggle();
+			});
+			$("#movies").hover(function() {
+				$("#moviespop").toggle();
+			});
+			$("#zombie").hover(function() {
+				$("#zombiepop").toggle();
+			});
+			$("#jekyll").hover(function() {
+				$("#jekyllpop").toggle();
+			});
+		});
+	</script>
+	
+	<link href="FinalProject_VillainsStyles.css" rel="stylesheet"/>
+</head>
+<body>
+
+	<!-- table for easy displaying -->
+	<div id="villains">
+	<table>
+		<tr>
+			<td><img src="vil10_apeman.jpg" alt="Ape Man" id="ape" class="vil"></td>
+			<td><img src="vil9_cat.jpg" alt="Cat Man" id="cat" class="vil"></td>
+			<td><img src="vil8_electricghost.jpg" alt="Electric Ghost" id="electric" class="vil"></td>
+			<td><img src="vil7_doctor.jpg" alt="The Doctor" id="doc" class="vil"></td>
+			<td><img src="vil6_dracula.jpg" alt="Dracula" id="drac" class="vil"></td>
+		</tr>
+		<tr>
+			<td><img src="vil5_clown.jpg" alt="The Clown" id="clown" class="vil"></td>
+			<td><img src="vil4_operaghost.jpg" alt="Opera Ghost" id="opera" class="vil"></td>
+			<td><img src="vil3_moviekiller.jpg" alt="Movie Killer" id="movies" class="vil"></td>
+			<td><img src="vil2_nofacezombi.jpg" alt="No-Face Zombie" id="zombie" class="vil"></td>
+			<td><img src="vil1_jekylhyde.jpg" alt="Jekyll and Hyde" id="jekyll" class="vil"></td>
+		</tr>
+	</table>
+	</div>
+	
+	<!-- pop up divs -->
+	<div class="bio" id="apepop">
+		<p>10. Never Ape An Ape-Man</p>
+	</div>
+	
+	<div class="bio" id="catpop">
+		<p>9. Make A Beeline Away From That Feline</p>
+	</div>
+	
+	<div class="bio" id="electricpop">
+		<p>8. Watt a Shocking Ghost</p>
+	</div>
+	
+	<div class="bio" id="docpop">
+		<p>7. The Harum Scarum Sanatorium</p>
+	</div>
+	
+	<div class="bio" id="dracpop">		
+		<p>6. High Rise Hair Raiser</p>
+	</div>
+	
+	<div class="bio" id="clownpop">
+		<p>5. Bedlam in the Big Top</p>
+	</div>
+	
+	<div class="bio" id="operapop">
+		<p>4. The Backstage Rage</p>
+	</div>
+	
+	<div class="bio" id="moviespop">
+		<p>3. The Chiller Diller Movie Thriller</p>
+	</div>
+	
+	<div class="bio" id="zombiepop">
+		<p>2. The No-Faced Zombie Chase Case</p>
+	</div>
+	
+	<div class="bio" id="jekyllpop">
+		<p>1. Nowhere to Hyde</p>
+	</div>
+	
+	<div id="bottomMenu">
+		<a href="FinalProject_Villains.html" >
+			<img src="villainslink-01.png" alt="Top 10 Villains" class="pagelinks">
+		</a>
+		<a href="FinalProject.html" >
+			<img src="homelink-01.png" alt="Home" class="pagelinks">
+		</a>
+		<a href="FinalProject_comments.php">
+			<img src="commentslink-01.png" alt="Comments"  class="pagelinks">
+		</a>
+	</div>
+
+</body>
+</html>
