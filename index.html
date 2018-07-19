@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scooby-Doo! Where Are You?! | Home</title>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	
+	<script>
+	//when each button is clicked, the bio of the corresponding character will pop up or disappear, 
+	//and a sound will play for each click
+	var audio = new Audio("buttonclick_boing.wav");
+	
+		$(document).ready(function() {
+			$("#fredbutton").click(function() {
+				audio.play();
+				$("#fredbio").toggle();
+			});
+			$("#velmabutton").click(function() {
+				audio.play();
+				$("#velmabio").toggle();
+			});
+			$("#daphnebutton").click(function() {
+				audio.play();
+				$("#daphnebio").toggle();
+			});
+			$("#shaggybutton").click(function() {
+				audio.play();
+				$("#shaggybio").toggle();
+			});
+			$("#scoobybutton").click(function() {
+				audio.play();
+				$("#scoobybio").toggle();
+			});
+		});
+	</script>
+	
+	<link href="FinalProject_HomeStyles.css" rel="stylesheet"/>
+</head>
+<body>
+
+	<div><img src="finalprojectimg_TheGang.png" alt="The Gang" id="gang"></div>
+	
+	<div id="sideMenu">
+		<input type="image" class="popup" id="fredbutton" src="fredbutton-01.png">
+		<input type="image" class="popup" id="velmabutton" src="velmabutton-01.png">
+		<input type="image" class="popup" id="daphnebutton" src="daphnebutton-01.png">
+		<input type="image" class="popup" id="shaggybutton" src="shaggybutton-01.png">
+		<input type="image" class="popup" id="scoobybutton" src="scoobybutton-01.png">
+	</div>
+	
+	<div class="bio" id="fredbio">
+	<table>
+		<tr>
+			<td><img src="Fred_Jones.png" alt="Fred Jones"></td>
+			<td><p>Fred "Freddie/Freddy" Jones is the leader of the Mystery Inc. gang, 
+			and (more often than not) the driver of their van: The Mystery Machine.</p></td>
+		</tr>
+	</table>
+	</div>
+	
+	<div class="bio" id="velmabio">
+	<table>
+		<tr>
+			<td><img src="Velma_Dinkley.png" alt="Velma Dinkley"></td>
+			<td><p>Velma Dinkley is the bespectacled resident genius of Mystery Inc., 
+			often being the one to decipher the clues and solve the crimes.</p></td>
+		</tr>
+	</table>
+	</div>
+	
+	<div class="bio" id="daphnebio">
+	<table>
+		<tr>
+			<td><img src="Daphne_Blake.png" alt="Daphne Blake"></td>
+			<td><p>Daphne Blake is the fashion-loving member of Mystery Inc. Daphne's 
+			characteristic trait in the gang is her tendency to get into danger, hence 
+			earning the nickname "Danger-prone Daphne".</p></td>
+		</tr>
+	</table>
+	</div>
+	
+	<div class="bio" id="shaggybio">
+	<table>
+		<tr>
+			<td><img src="ShaggyRogers.png" alt="Shaggy Rogers"></td>
+			<td><p>Norville "Shaggy" Rogers is a member of Mystery Inc., and the 
+			owner and best friend of their team's mascot.</p></td>
+		</tr>
+	</table>
+	</div>
+	
+	<div class="bio" id="scoobybio">
+	<table>
+		<tr>
+			<td><img src="scooby_doo.png" alt="Scooby Doo"></td>
+			<td><p>Scoobert "Scooby" Doo is the Great Dane mascot of Mystery Inc., 
+			and pet and best friend of Shaggy Rogers.</p></td>
+		</tr>
+	</table>
+	</div>
+	
+	<div id="bottomMenu">
+		<a href="FinalProject_Villains.html" >
+			<img src="villainslink-01.png" alt="Top 10 Villains" class="pagelinks">
+		</a>
+		<a href="FinalProject.html" >
+			<img src="homelink-01.png" alt="Home" class="pagelinks">
+		</a>
+		<a href="FinalProject_comments.php">
+			<img src="commentslink-01.png" alt="Comments"  class="pagelinks">
+		</a>
+	</div>
+
+</body>
+</html>
